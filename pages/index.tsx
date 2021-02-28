@@ -15,10 +15,12 @@ export default function Home() {
         
 
       </div>
-      <div className={styles.links}>
+      <div className={styles.home}>
         <Link href='/'>
           <a>Home</a>
         </Link>
+      </div>
+      <div className={styles.about}>
         <Link href='/about'>
           <a>About</a>
         </Link>

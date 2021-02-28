@@ -11,7 +11,7 @@
   width: 100%;
   height: 100px;
 }
-.links {
+.home {
   margin-top: 100px;
   padding: 0 0.5rem;
   display: inline;
@@ -24,5 +24,20 @@
   z-index: 999;
   width: 100%;
   height: 50px;
-
+  margin-left: 40%;
+}
+.about {
+  margin-top: 100px;
+  padding: 0 0.5rem;
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9494FF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 50px;
+  margin-left: 50%;
 }
