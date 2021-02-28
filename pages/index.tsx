@@ -15,17 +15,16 @@ export default function Home() {
         
 
       </div>
-      <div className={styles.home}>
+      <div className={styles.links}>
         <Link href='/'>
-          <a>Home</a>
+          <a className={styles.home}>Home</a>
         </Link>
-      </div>
-      <div className={styles.about}>
         <Link href='/about'>
-          <a>About</a>
+          <a className={styles.about}>About</a>
         </Link>
-
-        
+        <Link href='/products'>
+          <a className={styles.products}>Products</a>
+        </Link>
       </div>
     </>
   )

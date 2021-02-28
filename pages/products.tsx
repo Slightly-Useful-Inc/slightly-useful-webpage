@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
-import styles from '../styles/About.module.css'
+import styles from '../styles/Products.module.css'
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default class about extends Component {
+export default class products extends Component {
     render() {
         return (
             <>
                 <div className={styles.header}>
                     <Head>
-                        <title>About - Slightly Useful Inc.</title>
+                        <title>Products - Slightly Useful Inc.</title>
                     </Head>
                     
-                    <h1>About Slightly Useful Inc.</h1>
+                    <h1>Products by Slightly Useful Inc.</h1>
 
                 </div>
 
