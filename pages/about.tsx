@@ -27,6 +27,30 @@ export default class about extends Component {
                         <a className={styles.products}>Products</a>
                     </Link>
                 </div>
+
+                <div className={styles.main}>
+                    <h3>Our Staff</h3>
+                    <p>We have a great team here at Slightly Useful Inc.</p>
+                    <h3>Branch Managers/Board Members</h3>
+                    <ul>
+                        <li>
+                            Anthony, Slightly Useful Software, 47% Owner
+                        </li>
+                        <br/>
+                        <li>
+                            Travis, Gods Pencil Co. 3% Owner
+                        </li>
+                        <br/>
+                        <li>
+                            Jordan, Dani's Stash, 48% Owner
+                        </li>
+                        <br/>
+                        <li>
+                            David, Pencils, 2% Owner
+                        </li>
+
+                    </ul>
+                </div>
             </>
         )
     }
