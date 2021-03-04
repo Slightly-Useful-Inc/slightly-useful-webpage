@@ -29,3 +29,9 @@
   align-items: center;
   width: 100%;
 }
+
+.main {
+  position: relative;
+  background-color: darkslategrey;
+  height: 477px;
+}

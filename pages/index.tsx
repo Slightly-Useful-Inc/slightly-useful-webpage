@@ -26,6 +26,12 @@ export default function Home() {
           <a className={styles.products}>Products</a>
         </Link>
       </div>
+
+      <div className={styles.main}>
+        <h3>Why should I buy my everything from Slightly Useful?</h3>
+        <p>This is a question that we get asked a lot. In short, because you have too. Slightly Useful Inc. has what some would call a <i>"monoploy"</i>, but we call it a strangle hold on everything.</p>
+
+      </div>
     </>
   )
 }
