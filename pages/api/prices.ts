@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-
+//Tpye for return Data
 type Data = {
     meat_sticks: string,
     pencils: string,
