@@ -11,7 +11,7 @@ export default function dashboard() {
             {!session && <>
             <div className={styles.signedOut}>
                 <br/>
-                <button onClick={() => signIn()}>Sign in with<br/>Discord</button>
+                <button onClick={() => signIn()}>Sign In</button>
             </div>
             </>}
             {session && <>
