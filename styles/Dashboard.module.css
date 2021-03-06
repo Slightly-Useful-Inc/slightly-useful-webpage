@@ -1,0 +1,13 @@
+.signedOut {
+    align-items: middle;
+    text-align: center;
+    margin-top: 20%;
+    background-color: white;
+    width: 25%;
+    height: 100px;
+    margin-left: 36%;
+}
+
+.body {
+    background-color: #9494FF;
+}
