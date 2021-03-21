@@ -16,6 +16,7 @@ export default function dashboard() {
             </>}
             {session && <>
             Signed in as {session.user.name} <br/>
+            <img src={session.user.image} alt="User Image"/>
             <button onClick={() => signOut()}>Sign out</button>
             </>}
         </body>
